@@ -1,0 +1,89 @@
+body{
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: rgb(109, 104, 104);
+    border: solid;
+}
+.nav-item {
+    display: none;
+}
+.card-body {
+    background-color: rgb(109, 104, 104);
+}
+.card-title {
+    text-align: center;
+}
+.menu{
+    text-align: center;
+}
+.navbar-toggler{
+    background-color: transparent;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+@media (max-width: 850px) {
+   .nav-item{
+    display: inline-flex;
+   } 
+  }
+
+  /* for extra small devices like phones*/
+  @media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+}
+/* Medium devices (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand {
+        font-size: 22px;
+    }
+
+    .card {
+        margin: 10px;
+    }
+}
+
+/* Large devices (desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 26px;
+    }
+
+    .card-title {
+        font-size: 1.6rem;
+    }
+
+    .card {
+        margin: 15px;
+    }
+}
